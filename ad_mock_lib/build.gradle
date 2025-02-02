@@ -43,7 +43,7 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                from components.findByName("default")
+                from components.findByName("release")
                 groupId = 'com.github.RonOhayon' // 🔥 Replace with your GitHub username
                 artifactId = 'ad_mock_lib' // 🔥 Change to your library name
                 version = '1.0.0' // 🔥 Use your desired version
