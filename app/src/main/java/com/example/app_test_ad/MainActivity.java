@@ -5,8 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.LinearLayout;
 
-import com.example.ad_mock_lib.AdData;
 import com.example.ad_mock_lib.BannerAdView;
+import com.example.ad_mock_lib.AdData;
 
 public class MainActivity extends AppCompatActivity {
 
